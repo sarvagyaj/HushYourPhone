@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="horizontal" >
+    
+
+    <TextView
+        android:id="@+id/event"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="4dp"
+        android:text="@string/events"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/editEvents"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/event"
+        android:layout_marginRight="44dp"
+        android:layout_toLeftOf="@+id/deleteEvents"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="@string/edit"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/deleteEvents"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/event"
+        android:layout_marginRight="23dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:text="@string/delete"
+        android:textSize="12sp" />
+</RelativeLayout>

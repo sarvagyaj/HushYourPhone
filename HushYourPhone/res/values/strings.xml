@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HushYourPhone</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="events">Events</string>
+    <string name="addEvents">ADD NEW EVENT</string>
+    <string name="edit">EDIT</string>
+    <string name="delete">DELETE</string>
+    <string name="title_activity_add_event">AddEvent</string>
+    <string name="maps">Map</string>
+    <string name="eventNameHint">Event Name</string>
+    <string name="action">Action</string>
+    <string name="latitudeHint">Latitude</string>
+    <string name="longitudeHint">Longitude</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+    <string name="currentLocation">Current Location</string>
+    <string name="fromMap">Select from Map</string>
+    <string name="location">Location</string>
+    <string name="silent">Silent</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="ring">Ring</string>
+
+</resources>
